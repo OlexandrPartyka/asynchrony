@@ -1,5 +1,6 @@
 function delayedFunction() {
-  console.log("це повідомлення відобразиться через 3 секунди");
+  console.log("Ця функція виконується після затримки.");
 }
+var delayTime = prompt("Введіть час затримки в мілісекундах:");
 
-setTimeout(delayedFunction, 3000);
+setTimeout(delayedFunction, delayTime);
